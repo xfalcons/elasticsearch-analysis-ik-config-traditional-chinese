@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">  
+<properties>  
+	<comment>IK Analyzer 擴展配置</comment>
+	<!--用戶可以在這裡配置自己的擴展字典 -->	
+	<entry key="ext_dict">custom/mydict.dic;custom/single_word_low_freq.dic</entry> 	
+	 <!--用戶可以在這裡配置自己的擴展停止詞字典-->
+	<entry key="ext_stopwords">custom/ext_stopword.dic;custom/zhTW/stopword.dic</entry>
+	<!--用戶可以在這裡配置遠程擴展字典 -->	
+	<!-- <entry key="remote_ext_dict">words_location</entry> -->
+	<!--用戶可以在這裡配置遠程擴展停止詞字典-->
+	<!-- <entry key="remote_ext_stopwords">words_location</entry> -->
+</properties>
